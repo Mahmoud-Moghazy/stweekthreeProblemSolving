@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/bootstrap.bundle.min.js"></script>
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
+    <header class="container py-4 text-center">
+      <h1 class="fw-bold">Task Three: Solve The Following Problems</h1>
+    </header>
+    <main class="container py-4">
+      <section class="card p-3 shadow-lg position-relative mb-3 border-warning">
+        <div class="mb-4">
+          <h2>Exercise one: Filtering an Array</h2>
+          <p>
+            Problem: Write a function that takes an array of numbers and returns
+            a new array containing only the even numbers.
+          </p>
+        </div>
+        <div class="d-flex align-items-stretch justify-content-between gap-3">
+          <div class="form-floating flex-grow-1">
+            <input
+              type="text"
+              class="form-control border-warning focus-ring focus-ring-warning"
+              id="filteringArrayInput"
+              placeholder=""
+            />
+            <label for="filteringArrayInput">Add a Number</label>
+          </div>
+          <button id="addToFilteringArrayBtn" class="btn btn-dark">
+            Add to array
+          </button>
+        </div>
+        <button id="filteringArrayBtn" class="btn btn-warning my-4 fw-bold">
+          Filter even numbers
+        </button>
+        <div id="filterResult">
+          <p>Array you created: <span class="text-info" id="filteringArrayCreated"></span></p>
+          <p>Array filtered: <span class="text-info" id="filtered"></span></p>
+        </div>
+      </section>
+      <section class="card p-3 shadow-lg position-relative mb-3 border-warning">
+        <div class="mb-4">
+          <h2>Exercise two: Find the Largest Number</h2>
+          <p>
+            Problem: Write a function that takes an array of numbers and returns
+            the largest number in the array.
+          </p>
+        </div>
+        <div class="d-flex align-items-stretch justify-content-between gap-3">
+          <div class="form-floating flex-grow-1">
+            <input
+              type="text"
+              class="form-control border-warning focus-ring focus-ring-warning"
+              id="largestNumberArrayInput"
+              placeholder=""
+            />
+            <label for="largestNumberArrayInput">Add a Number</label>
+          </div>
+          <button id="addToLargestNumberArrayBtn" class="btn btn-dark">
+            Add to array
+          </button>
+        </div>
+        <button id="findLargestNumberBtn" class="btn btn-warning my-4 fw-bold">
+          Find the Largest Number
+        </button>
+        <div id="largestNumberResult">
+          <p>Array you created: <span class="text-info" id="largestNumberArrayCreated"></span></p>
+          <p>Largest Number: <span class="text-info" id="largestNumber"></span></p>
+        </div>
+      </section>
+      <section class="card p-3 shadow-lg position-relative mb-3 border-warning">
+        <div class="mb-4">
+          <h2>Exercise three: Reverse a String</h2>
+          <p>
+            Problem: Write a function that takes a string as input and returns
+            the same string but reversed.
+          </p>
+        </div>
+        <div class="d-flex align-items-stretch justify-content-between gap-3">
+          <div class="form-floating flex-grow-1">
+            <input
+              type="text"
+              class="form-control border-warning focus-ring focus-ring-warning"
+              id="stringInput"
+              placeholder=""
+            />
+            <label for="stringInput">Write a String</label>
+          </div>
+          <button id="addStringBtn" class="btn btn-dark">Add String</button>
+        </div>
+        <button id="reverseStringBtn" class="btn btn-warning my-4 fw-bold">
+          Reverse a String
+        </button>
+        <div id="reverseStringResult">
+          <p>Srting you created: <span class="text-info" id="reverseStringCreated"></span></p>
+          <p>Srting Reversed: <span class="text-info" id="srtingReversed"></span></p>
+        </div>
+      </section>
+      <section class="card p-3 shadow-lg position-relative mb-3 border-warning">
+        <div class="mb-4">
+          <h2>Exercise four: Remove Duplicates</h2>
+          <p>
+            Problem: Write a function that takes an array of numbers and returns
+            a new array without duplicate numbers.
+          </p>
+        </div>
+        <div class="d-flex align-items-stretch justify-content-between gap-3">
+          <div class="form-floating flex-grow-1">
+            <input
+              type="text"
+              class="form-control border-warning focus-ring focus-ring-warning"
+              id="duplicatesArrayInput"
+              placeholder=""
+            />
+            <label for="duplicatesArrayInput">Add a Number</label>
+          </div>
+          <button id="addToDuplicatesArrayBtn" class="btn btn-dark">Add to array</button>
+        </div>
+        <button id="removeDuplicatesBtn" class="btn btn-warning my-4 fw-bold">
+          Remove Duplicates
+        </button>
+        <div id="removeDuplicatesResult">
+          <p>Array you created: <span class="text-info" id="removeDuplicatesCreated"></span></p>
+          <p>Array Without Duplicates: <span class="text-info" id="removeDuplicates"></span></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
